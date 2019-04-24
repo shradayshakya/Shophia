@@ -10,8 +10,8 @@
   /*CAROUSAL STYLES BEGIN*/
 
   .carousel__card {  
-    font-size:9px;
-    width: 135px;
+    font-size:12px;
+    width: 155px;
   }
 
   .carousel__card-body ul li:nth-child(4){
@@ -31,7 +31,7 @@
   }
   
   .carousel__card-button a {
-    height: 28px;
+    height: 50px;
     width: 95px;
     padding: 9px;
   }

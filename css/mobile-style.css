@@ -169,9 +169,9 @@ a {
 
 .carousel__card-button a {
   display: inline-block;
-  height: 18px;
+  height: 34px;
   width: 62px;
-  padding: 6px;
+  padding: 10px;
   background-color: #f09d66;
   color: white;
   font-size: 1.5em;
