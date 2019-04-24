@@ -22,7 +22,7 @@
     font-size: 11px;
   }
 
-  .header-main__burger-button{
+  .header-main__burger-button {
     display: none;
   }
 
@@ -66,17 +66,20 @@
   }
   /*TOP MOST HEADER STYLES END*/
 
-   /*MAIN HEADER STYLES BEGIN*/
-  .header-main__nav{
+  /*MAIN HEADER STYLES BEGIN*/
+  .header-main {
+    padding: 50px 0px;
+  }
+  .header-main__nav {
     display: block;
-    float:left;
+    float: left;
   }
 
-  .header-main__nav li{
+  .header-main__nav li {
     display: inline-block;
   }
 
-  .header-main__nav li a{
+  .header-main__nav li a {
     font-family: "playfair_displayitalic";
     font-size: 18px;
     padding: 0 10px;
@@ -88,27 +91,27 @@
     font-size: 72px;
   }
 
-  .header-main__right{
+  .header-main__right {
     display: block;
-    float:right;
+    float: right;
     padding-right: 10px;
   }
 
-  .header-main__user-setting{
+  .header-main__user-setting {
     display: inline-block;
     background: black;
     vertical-align: bottom;
     margin-bottom: 5px;
   }
-  .header-main__user-setting a{
+  .header-main__user-setting a {
     display: inline-block;
     text-transform: uppercase;
-    font-family: 'latobold';
+    font-family: "latobold";
     color: white;
     font-size: 12px;
     padding: 10px;
   }
-  .header-main__user-setting img{
+  .header-main__user-setting img {
     width: 12px;
   }
 
@@ -117,7 +120,7 @@
     padding-right: 20px;
   }
 
-  .header-main__social-media li{
+  .header-main__social-media li {
     display: inline-block;
     padding: 0 6px;
   }
@@ -125,6 +128,39 @@
   .header-main__social-media img {
     width: 35px;
   }
- /*MAIN HEADER STYLES END*/
+  /*MAIN HEADER STYLES END*/
 
+  /*CAROUSAL STYLES BEGIN*/
+
+  .carousel__card {
+    
+    font-size:16px;
+    width: 276px;
+  }
+
+  .carousel__card-body {
+    padding: 10px;
+  }
+  
+  .carousel__card-body li{
+    padding-top:20px;
+  }
+
+  .carousel__card-body ul li:nth-child(4){
+    margin-bottom: 10px;
+  }
+
+  .carousel__card-button {
+    margin-top: 50px;
+  }
+  
+  .carousel__card-button a {
+    height: 55px;
+    width: 190px;
+    padding: 18px;
+    font-size: 24px;
+  }
+
+  
+  /*CAROUSAL STYLES END*/
 }

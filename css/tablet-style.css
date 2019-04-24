@@ -1,10 +1,41 @@
-@media only screen and (min-width: 600px){
-     
-    /*MAIN HEADER STYLES BEGIN*/
-    .header-main__logo {
-        left: calc(50% - 94px);
-        font-size: 60px;
-      }
+@media only screen and (min-width: 600px) {
+  /*MAIN HEADER STYLES BEGIN*/
+  .header-main__logo {
+    left: calc(50% - 94px);
+    font-size: 60px;
+  }
 
-     /*MAIN HEADER STYLES END*/
+  /*MAIN HEADER STYLES END*/
+
+  /*CAROUSAL STYLES BEGIN*/
+
+  .carousel__card {  
+    font-size:9px;
+    width: 135px;
+  }
+
+  .carousel__card-body ul li:nth-child(4){
+    margin-bottom: 8px;
+  }
+
+  .carousel__card-body {
+    padding: 10px;
+  }
+  
+  .carousel__card-body li{
+    padding-top:15px;
+  }
+
+  .carousel__card-button {
+    margin-top: 25px;
+  }
+  
+  .carousel__card-button a {
+    height: 28px;
+    width: 95px;
+    padding: 9px;
+  }
+
+
+  /*CAROUSAL STYLES END*/
 }
