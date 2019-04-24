@@ -1,0 +1,17 @@
+.left {
+    float: left;
+}
+
+.right {
+    float:right;
+}
+
+.clearfix:after {
+	content: '';
+	clear: both;
+	display: table;
+}
+
+.align-right {
+	text-align: right;
+}

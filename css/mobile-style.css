@@ -1,0 +1,113 @@
+  @font-face {
+    font-family: 'krinkes_decor_personal_useRg';
+    src: url('../fonts/krinkesdecorpersonal-webfont.woff2') format('woff2'),
+    url('../fonts/krinkesdecorpersonal-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'latobold';
+    src: url('../fonts/lato-bold-webfont.woff2') format('woff2'),
+    url('../fonts/lato-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'latoregular';
+    src: url('../fonts/lato-regular-webfont.woff2') format('woff2'),
+    url('../fonts/lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    
+  }
+
+  @font-face {
+    font-family: 'playfair_displaybold_italic';
+    src: url('../fonts/playfairdisplay-bolditalic-webfont.woff2') format('woff2'),
+    url('../fonts/playfairdisplay-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'playfair_displayitalic';
+    src: url('../fonts/playfairdisplay-italic-webfont.woff2') format('woff2'),
+    url('../fonts/playfairdisplay-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  body {
+    font-family: "latoregular";
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .header-desktop-wrapper {
+    display: none;
+  }
+
+
+   /*MAIN HEADER STYLES BEGIN*/
+   .header-main-wrapper {
+    width: 100%;
+  }
+
+  .header-main {
+    max-width: 1315px;
+    margin: 0 auto;
+    position: relative;
+    padding: 50px 0px;
+    position: relative;
+  }
+
+  .header-main:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .header-main__nav{
+    display: none;
+  }
+
+  .header-main__burger-button{
+    float:left;
+    padding-left: 10px;
+  }
+
+  .header-main__burger-button button{
+    border: none;
+    background-color: transparent;
+  }
+
+  .header-main__burger-button img{
+    width: 50px;
+  }
+  
+  
+  .header-main__logo {
+    position: absolute;
+    display: inline-block;
+    font-family: "krinkes_decor_personal_useRg";
+    left: calc(50% - 79px);
+    font-size: 50px;
+  }
+
+  .header-main__right{
+    display: none;
+  }
+  /*MAIN HEADER STYLES END*/

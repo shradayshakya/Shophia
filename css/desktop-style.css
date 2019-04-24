@@ -1,0 +1,130 @@
+@media only screen and (min-width: 992px) {
+  /*TOP MOST HEADER STYLES BEGIN*/
+  .header-desktop-wrapper {
+    display: block;
+    width: 100%;
+    background-color: #f2f2f2;
+  }
+  .header-desktop {
+    max-width: 1315px;
+    padding: 14px 0px;
+    font-size: 11px;
+    margin: 0 auto;
+  }
+
+  .header-desktop:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .header-desktop a {
+    font-size: 11px;
+  }
+
+  .header-main__burger-button{
+    display: none;
+  }
+
+  .header-desktop a:hover {
+    color: #bbbbbb;
+  }
+
+  .header-desktop__contact-info {
+    float: left;
+    width: 140px;
+    position: relative;
+  }
+
+  .header-desktop__contact-info img {
+    position: absolute;
+    left: 10px;
+    top: 1px;
+    width: 10px;
+  }
+
+  .header-desktop__contact-info span {
+    left: 40px;
+    position: absolute;
+  }
+
+  .header-desktop__personalized-nav {
+    float: right;
+  }
+  .header-desktop__personalized-nav li,
+  .header-desktop__personalized-nav li a {
+    display: inline-block;
+    text-transform: uppercase;
+  }
+  .header-desktop__personalized-nav li {
+    border-right: 0.5px solid black;
+    padding: 0px 20px;
+  }
+  .header-desktop__personalized-nav li:last-child {
+    border-right: none;
+    padding-right: 10px;
+  }
+  /*TOP MOST HEADER STYLES END*/
+
+   /*MAIN HEADER STYLES BEGIN*/
+  .header-main__nav{
+    display: block;
+    float:left;
+  }
+
+  .header-main__nav li{
+    display: inline-block;
+  }
+
+  .header-main__nav li a{
+    font-family: "playfair_displayitalic";
+    font-size: 18px;
+    padding: 0 10px;
+  }
+
+  .header-main__logo {
+    position: absolute;
+    left: calc(50% - 113px);
+    font-size: 72px;
+  }
+
+  .header-main__right{
+    display: block;
+    float:right;
+    padding-right: 10px;
+  }
+
+  .header-main__user-setting{
+    display: inline-block;
+    background: black;
+    vertical-align: bottom;
+    margin-bottom: 5px;
+  }
+  .header-main__user-setting a{
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'latobold';
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+  }
+  .header-main__user-setting img{
+    width: 12px;
+  }
+
+  .header-main__social-media {
+    display: inline-block;
+    padding-right: 20px;
+  }
+
+  .header-main__social-media li{
+    display: inline-block;
+    padding: 0 6px;
+  }
+
+  .header-main__social-media img {
+    width: 35px;
+  }
+ /*MAIN HEADER STYLES END*/
+
+}

@@ -1,0 +1,10 @@
+@media only screen and (min-width: 600px){
+     
+    /*MAIN HEADER STYLES BEGIN*/
+    .header-main__logo {
+        left: calc(50% - 94px);
+        font-size: 60px;
+      }
+
+     /*MAIN HEADER STYLES END*/
+}
