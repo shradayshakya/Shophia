@@ -132,34 +132,110 @@
 
   /*CAROUSAL STYLES BEGIN*/
 
+  .carousel-wrapper:after {
+    left: calc(50% - 100px);
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 40px solid white;
+  }
+
   .carousel__card {
-    
-    font-size:16px;
+    font-size: 16px;
     width: 276px;
   }
 
   .carousel__card-body {
     padding: 15px;
   }
-  
-  .carousel__card-body li{
-    padding-top:20px;
+
+  .carousel__card-body li {
+    padding-top: 20px;
   }
 
-  .carousel__card-body ul li:nth-child(4){
+  .carousel__card-body ul li:nth-child(4) {
     margin-bottom: 10px;
   }
 
   .carousel__card-button {
     margin-top: 50px;
   }
-  
+
   .carousel__card-button a {
     height: 55px;
     width: 190px;
     padding: 18px;
   }
-
-  
   /*CAROUSAL STYLES END*/
+
+  /*OFFERS STYLES BEGIN*/
+
+  .offers li {
+    float: left;
+    font-size: 16px;
+  }
+
+  .offer {
+    padding: 25px 0px;
+  }
+
+  ul.offers li:nth-child(1) .offer {
+    padding-left: 0;
+    position: relative;
+  }
+
+  ul.offers li:nth-child(1) .offer::after {
+    top: 0px;
+    left: calc(100% - 50px);
+    position: absolute;
+    content: "";
+    display: block;
+    border-style: solid;
+    border-width: 50px 0 50px 50px;
+    border-color: #ffffff #ffffff #ffffff #d9bf8f;
+  }
+
+  ul.offers li:nth-child(2) .offer {
+    padding-left: calc(50% - 130px);
+    position: relative;
+  }
+
+  ul.offers li:nth-child(2) .offer::before {
+    top: 0px;
+    right: calc(100% - 50px);
+    position: absolute;
+    content: "";
+    display: block;
+    border-style: solid;
+    border-width: 50px 0 50px 50px;
+    border-color: transparent transparent transparent #ffffff;
+  }
+
+  ul.offers li:nth-child(2) .offer::after {
+    top: 0px;
+    left: calc(100% - 50px);
+    position: absolute;
+    content: "";
+    display: block;
+    border-style: solid;
+    border-width: 50px 50px 50px 0;
+    border-color: transparent #ffffff transparent transparent;
+  }
+
+  ul.offers li:nth-child(3) .offer {
+    padding-left: calc(50% - 100px);
+    position: relative;
+  }
+
+  ul.offers li:nth-child(3) .offer::before {
+    top: 0px;
+    right: calc(100% - 50px);
+    position: absolute;
+    content: "";
+    display: block;
+    border-style: solid;
+    border-width: 50px 50px 50px 0px;
+    border-color: #ffffff  #d9bf8f #ffffff #ffffff;
+  } 
+
+  /*OFFERS STYLES END*/
 }
