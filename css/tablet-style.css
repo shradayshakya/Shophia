@@ -9,35 +9,34 @@
 
   /*CAROUSAL STYLES BEGIN*/
 
-  .carousel-wrapper:after{
+  .carousel-wrapper:after {
     left: calc(50% - 30px);
     border-left: 30px solid transparent;
-  	border-right: 30px solid transparent;
+    border-right: 30px solid transparent;
     border-top: 10px solid white;
-    }
+  }
 
-  .carousel__card {  
-    font-size:12px;
+  .carousel__card {
+    font-size: 12px;
     width: 155px;
   }
 
-
-  .carousel__card-body ul li:nth-child(4){
+  .carousel__card-body ul li:nth-child(4) {
     margin-bottom: 8px;
   }
 
   .carousel__card-body {
     padding: 10px;
   }
-  
-  .carousel__card-body li{
-    padding-top:15px;
+
+  .carousel__card-body li {
+    padding-top: 15px;
   }
 
   .carousel__card-button {
     margin-top: 25px;
   }
-  
+
   .carousel__card-button a {
     height: 50px;
     width: 95px;
@@ -47,33 +46,82 @@
 
   /*OFFERS STYLES BEGIN*/
 
-  .offers li{
+  .offers li {
     float: left;
-    padding:0 10px;
+    padding: 0 10px;
     font-size: 9px;
   }
 
-  .offer{
+  .offer {
     padding: 20px 0;
   }
 
-
-  ul.offers li:nth-child(1){
+  ul.offers li:nth-child(1) {
     width: 30%;
   }
-  
+
   ul.offers li:nth-child(2) {
     width: 40%;
   }
-  
-  ul.offers li:nth-child(3){
+
+  ul.offers li:nth-child(3) {
     width: 30%;
   }
 
-  ul.offers li  .offer {
+  ul.offers li .offer {
     padding-left: calc(50% - 90px);
   }
 
-
   /*OFFERS STYLES END*/
+
+  /* HANDPICKED STYLES BEGIN*/
+  .handpicked__item a{
+    width: 150px;
+    height: 70px;
+    font-size: 20px;
+    padding: 20px; 
+    bottom: 20%;
+    left: calc(50% - 75px);
+  }
+
+
+  .handpicked li{
+    width: 50%;
+  }
+  
+  .handpicked li{
+    padding: 0 10px;
+  }
+
+  .handpicked li:nth-child(2){
+    padding-bottom: 2px;
+  }
+
+
+  .handpicked li:nth-child(1),
+  .handpicked li:nth-child(3),
+  .handpicked li:nth-child(4) {
+    float: left;
+  }
+  .handpicked li:nth-child(2),
+  .handpicked li:nth-child(5){
+    float: right;
+  }
+
+  /* HANDPICKED STYLES END */
+
+
+  /*RESPONSIVE HELPER STYLES BEGIN*/
+  .sunken-top {
+    position: relative;
+  }
+
+  .sunken-top::after {
+    left: calc(50% - 55px);
+    border-left: 55px solid transparent;
+    border-right: 55px solid transparent;
+    border-top: 15px solid white;
+  }
+
+  /*RESPONSIVE HELPER STYLES END*/
 }

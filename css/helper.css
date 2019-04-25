@@ -15,3 +15,54 @@
 .align-right {
 	text-align: right;
 }
+
+.content-title {
+	margin: 0 auto;
+	max-width: 1315px;
+	min-width: 325px;
+	position:relative;
+	text-align: center;
+  }
+  
+  .content-title:before {
+	content: "";
+	display: block;
+	border-top: solid 1px #eaeaea;
+	width: 100%;
+	height: 2px;
+	position: absolute;
+	top: 50%;
+	z-index: 0;
+  }
+  
+  .content-title span{
+	font-family: "playfair_displaybold_italic";
+	font-size: 29px;
+	background: #fff;
+	padding: 0 10px;
+	position: relative;
+	z-index: 1;
+  }
+  .content-title span::before {
+	  content: url('../images/icon-slider-gold.png');
+	  width: 20px;
+	  height: 20px;
+	  display: inline-block;
+	  padding-right: 20px;
+	  background: #fff;
+	  z-index: 1;
+  }
+  
+  .content-title span::after {
+	content: url('../images/icon-slider-gold.png');
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	padding-left: 20px;
+	background: #fff;
+	z-index: 1;
+  }
+
+
+ 

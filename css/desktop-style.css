@@ -131,14 +131,6 @@
   /*MAIN HEADER STYLES END*/
 
   /*CAROUSAL STYLES BEGIN*/
-
-  .carousel-wrapper:after {
-    left: calc(50% - 100px);
-    border-left: 100px solid transparent;
-    border-right: 100px solid transparent;
-    border-top: 40px solid white;
-  }
-
   .carousel__card {
     font-size: 16px;
     width: 276px;
@@ -234,8 +226,69 @@
     display: block;
     border-style: solid;
     border-width: 50px 50px 50px 0px;
-    border-color: #ffffff  #d9bf8f #ffffff #ffffff;
-  } 
+    border-color: #ffffff #d9bf8f #ffffff #ffffff;
+  }
 
   /*OFFERS STYLES END*/
+
+  /* HANDPICKED STYLES BEGIN */
+  .handpicked {
+    position: relative;
+  }
+  .handpicked li {
+    width: 33.33%;
+    padding: 10px;
+  }
+
+  .handpicked li:nth-child(2){
+    max-height: 820px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .handpicked li:nth-child(1){
+    float: left;
+  }
+
+  .handpicked li:nth-child(3){
+    float: right;
+  }
+
+
+  .handpicked li:nth-child(4){
+    float: left;
+    clear: both;
+  }
+
+  .handpicked li:nth-child(5){
+    float: right;
+  }
+
+
+  
+  .handpicked__item a {
+    width: 120px;
+    height: 45px;
+    font-size: 14px;
+    padding: 15px 10px;
+    bottom: 20%;
+    left: calc(50% - 50px);
+  }
+  
+  /* HANDPICKED STYLES END */
+
+  /*RESPONSIVE HELPER STYLES BEGIN*/
+  .sunken-top {
+    position: relative;
+  }
+
+  .sunken-top::after {
+    left: calc(50% - 100px);
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 40px solid white;
+  }
+
+  /*RESPONSIVE HELPER STYLES END*/
 }
