@@ -75,28 +75,26 @@
   /*OFFERS STYLES END*/
 
   /* HANDPICKED STYLES BEGIN*/
-  .handpicked__item a{
+  .handpicked__item a {
     width: 150px;
     height: 70px;
     font-size: 20px;
-    padding: 20px; 
+    padding: 20px;
     bottom: 20%;
     left: calc(50% - 75px);
   }
 
-
-  .handpicked li{
+  .handpicked li {
     width: 50%;
   }
-  
-  .handpicked li{
+
+  .handpicked li {
     padding: 0 10px;
   }
 
-  .handpicked li:nth-child(2){
+  .handpicked li:nth-child(2) {
     padding-bottom: 2px;
   }
-
 
   .handpicked li:nth-child(1),
   .handpicked li:nth-child(3),
@@ -104,12 +102,20 @@
     float: left;
   }
   .handpicked li:nth-child(2),
-  .handpicked li:nth-child(5){
+  .handpicked li:nth-child(5) {
     float: right;
   }
 
   /* HANDPICKED STYLES END */
 
+  /* SUMMER COLLECTION STYLES BEGIN */
+
+  .summer li {
+    width:50%;
+    float: left;
+  }
+
+  /* SUMMER COLLECTION STYLES END */
 
   /*RESPONSIVE HELPER STYLES BEGIN*/
   .sunken-top {
@@ -122,6 +128,10 @@
     border-right: 55px solid transparent;
     border-top: 15px solid white;
   }
+
+  .content-title span{
+    font-size: 25px;
+    }
 
   /*RESPONSIVE HELPER STYLES END*/
 }
