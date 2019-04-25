@@ -1,5 +1,5 @@
 @media only screen and (min-width: 992px) {
-  /*TOP MOST HEADER STYLES BEGIN*/
+  /* vvv TOP MOST HEADER STYLES BEGIN vvv */
   .header-desktop-wrapper {
     display: block;
     width: 100%;
@@ -64,9 +64,9 @@
     border-right: none;
     padding-right: 10px;
   }
-  /*TOP MOST HEADER STYLES END*/
+  /* ^^^ TOP MOST HEADER STYLES END ^^^ */
 
-  /*MAIN HEADER STYLES BEGIN*/
+  /* vvv MAIN HEADER STYLES BEGIN vvv */
   .header-main {
     padding: 50px 0px;
   }
@@ -128,9 +128,9 @@
   .header-main__social-media img {
     width: 35px;
   }
-  /*MAIN HEADER STYLES END*/
+  /* ^^^ MAIN HEADER STYLES END ^^^ */
 
-  /*CAROUSAL STYLES BEGIN*/
+  /* vvv CAROUSAL STYLES BEGIN vvv */
   .carousel__card {
     font-size: 16px;
     width: 276px;
@@ -157,10 +157,9 @@
     width: 190px;
     padding: 18px;
   }
-  /*CAROUSAL STYLES END*/
+  /* ^^^ CAROUSAL STYLES END ^^^ */
 
-  /*OFFERS STYLES BEGIN*/
-
+  /* vvv OFFERS STYLES BEGIN vvv */
   .offers li {
     float: left;
     font-size: 16px;
@@ -228,10 +227,9 @@
     border-width: 50px 50px 50px 0px;
     border-color: #ffffff #d9bf8f #ffffff #ffffff;
   }
+  /* ^^^ OFFERS STYLES END ^^^ */
 
-  /*OFFERS STYLES END*/
-
-  /* HANDPICKED STYLES BEGIN */
+  /* vvv HANDPICKED STYLES BEGIN vvv */
   .handpicked {
     position: relative;
   }
@@ -269,26 +267,36 @@
     bottom: 20%;
     left: calc(50% - 50px);
   }
+  /* ^^^ HANDPICKED STYLES END ^^^ */
 
-  /* HANDPICKED STYLES END */
-
-  /* SUMMER COLLECTION STYLES BEGIN */
+  /* vvv SUMMER COLLECTION STYLES BEGIN vvv */
   .summer li {
     width: 25%;
     float: left;
   }
+  /* ^^^ SUMMER COLLECTION STYLES END ^^^ */
 
-  /* SUMMER COLLECTION STYLES END */
+  
+  /* vvv FOOTER STYLES BEGIN vvv */
+  .footer-upper > li{
+    text-align: left; 
+    float: left;
+  }
 
-  /* CUSTOMER STYLES BEGIN */
+  .footer-upper > li{
+    width: 25%;
+  }
+  /* ^^^ FOOTER STYLES BEGIN ^^^ */
+
+  /* vvv CUSTOMER STYLES BEGIN vvv */
   .review__text {
     padding-top: 10%;
     width: 50%;
     font-size: 14px;
   }
-  /* CUSTOMER STYLES END */
+  /* ^^^ CUSTOMER STYLES END ^^^ */
 
-  /*RESPONSIVE HELPER STYLES BEGIN*/
+  /* vvv RESPONSIVE HELPER STYLES BEGIN vvv */
   .sunken-top {
     position: relative;
   }
@@ -299,6 +307,5 @@
     border-right: 100px solid transparent;
     border-top: 40px solid white;
   }
-
-  /*RESPONSIVE HELPER STYLES END*/
+  /* ^^^ RESPONSIVE HELPER STYLES END ^^^ */
 }

@@ -1,13 +1,13 @@
 @media only screen and (min-width: 600px) {
-  /*MAIN HEADER STYLES BEGIN*/
+  /* vvv MAIN HEADER STYLES BEGIN vvv */
   .header-main__logo {
     left: calc(50% - 94px);
     font-size: 60px;
   }
 
-  /*MAIN HEADER STYLES END*/
+  /* ^^^ MAIN HEADER STYLES END ^^^*/
 
-  /*CAROUSAL STYLES BEGIN*/
+  /* vvv CAROUSAL STYLES BEGIN vvv */
 
   .carousel-wrapper:after {
     left: calc(50% - 30px);
@@ -42,9 +42,9 @@
     width: 95px;
     padding: 9px;
   }
-  /*CAROUSAL STYLES END*/
+  /* ^^^ CAROUSAL STYLES END ^^^*/
 
-  /*OFFERS STYLES BEGIN*/
+  /* vvv OFFERS STYLES BEGIN vvv */
 
   .offers li {
     float: left;
@@ -72,9 +72,9 @@
     padding-left: calc(50% - 90px);
   }
 
-  /*OFFERS STYLES END*/
+  /* ^^^ OFFERS STYLES END ^^^ */
 
-  /* HANDPICKED STYLES BEGIN*/
+  /* vvv HANDPICKED STYLES BEGIN vvv */
   .handpicked__item a {
     width: 150px;
     height: 70px;
@@ -106,26 +106,26 @@
     float: right;
   }
 
-  /* HANDPICKED STYLES END */
+  /* ^^^ HANDPICKED STYLES END ^^^ */
 
-  /* SUMMER COLLECTION STYLES BEGIN */
+  /* vvv SUMMER COLLECTION STYLES BEGIN vvv */
 
   .summer li {
     width: 50%;
     float: left;
   }
 
-  /* SUMMER COLLECTION STYLES END */
+  /* ^^^ SUMMER COLLECTION STYLES END ^^^ */
 
-  /* BRAND STYLES BEGIN */
+  /* vvv BRAND STYLES BEGIN vvv */
   .brand li {
     width: 16.66667%;
     float: left;
     padding: 20px;
   }
-  /* BRAND STYLES END */
+  /* ^^^ BRAND STYLES END ^^^ */
 
-  /* CUSTOMER STYLES BEGIN */
+  /* vvv CUSTOMER STYLES BEGIN vvv */
   ul.review li {
     width: 50%;
     float: left;
@@ -136,9 +136,23 @@
     width: 50%;
     font-size: 10px;
   }
-  /* CUSTOMER STYLES END */
+  /* ^^^ CUSTOMER STYLES END ^^^ */
 
-  /*RESPONSIVE HELPER STYLES BEGIN*/
+  /* vvv FOOTER STYLES BEGIN vvv */
+  .footer-upper > li{
+    padding-left: 5px;
+    text-align: left; 
+    float: left;
+    width: 50%;
+  }
+
+  .footer-upper__subscribe-form {
+    margin: 0;
+  }
+  /* ^^^ FOOTER STYLES BEGIN ^^^ */
+
+  
+  /* vvv RESPONSIVE HELPER STYLES BEGIN ^^^ */
   .sunken-top {
     position: relative;
   }
@@ -154,5 +168,5 @@
     font-size: 25px;
   }
 
-  /*RESPONSIVE HELPER STYLES END*/
+  /* ^^^ RESPONSIVE HELPER STYLES END ^^^ */
 }
