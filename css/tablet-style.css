@@ -111,11 +111,32 @@
   /* SUMMER COLLECTION STYLES BEGIN */
 
   .summer li {
-    width:50%;
+    width: 50%;
     float: left;
   }
 
   /* SUMMER COLLECTION STYLES END */
+
+  /* BRAND STYLES BEGIN */
+  .brand li {
+    width: 16.66667%;
+    float: left;
+    padding: 20px;
+  }
+  /* BRAND STYLES END */
+
+  /* CUSTOMER STYLES BEGIN */
+  ul.review li {
+    width: 50%;
+    float: left;
+  }
+
+  .review__text {
+    padding-top: 10%;
+    width: 50%;
+    font-size: 10px;
+  }
+  /* CUSTOMER STYLES END */
 
   /*RESPONSIVE HELPER STYLES BEGIN*/
   .sunken-top {
@@ -129,9 +150,9 @@
     border-top: 15px solid white;
   }
 
-  .content-title span{
+  .content-title span {
     font-size: 25px;
-    }
+  }
 
   /*RESPONSIVE HELPER STYLES END*/
 }

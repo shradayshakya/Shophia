@@ -274,11 +274,19 @@
 
   /* SUMMER COLLECTION STYLES BEGIN */
   .summer li {
-    width:25%;
+    width: 25%;
     float: left;
   }
-  
+
   /* SUMMER COLLECTION STYLES END */
+
+  /* CUSTOMER STYLES BEGIN */
+  .review__text {
+    padding-top: 10%;
+    width: 50%;
+    font-size: 14px;
+  }
+  /* CUSTOMER STYLES END */
 
   /*RESPONSIVE HELPER STYLES BEGIN*/
   .sunken-top {
