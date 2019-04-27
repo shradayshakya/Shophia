@@ -1,54 +1,8 @@
 @media only screen and (min-width: 992px) {
   /* vvv TOP MOST HEADER STYLES BEGIN vvv */
-  .header-desktop-wrapper {
-    display: block;
-    width: 100%;
-    background-color: #f2f2f2;
-  }
-  .header-desktop {
-    max-width: 1315px;
-    padding: 14px 0px;
-    font-size: 11px;
-    margin: 0 auto;
-  }
-
-  .header-desktop:after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
-  .header-desktop a {
-    font-size: 11px;
-  }
-
-  .header-main__burger-button {
-    display: none;
-  }
-
-  .header-desktop a:hover {
-    color: #bbbbbb;
-  }
-
-  .header-desktop__contact-info {
-    float: left;
-    width: 140px;
-    position: relative;
-  }
-
-  .header-desktop__contact-info img {
-    position: absolute;
-    left: 10px;
-    top: 1px;
-    width: 10px;
-  }
-
-  .header-desktop__contact-info span {
-    left: 40px;
-    position: absolute;
-  }
-
+  
   .header-desktop__personalized-nav {
+    display: block;
     float: right;
   }
   .header-desktop__personalized-nav li,
@@ -62,17 +16,21 @@
   }
   .header-desktop__personalized-nav li:last-child {
     border-right: none;
-    padding-right: 10px;
   }
   /* ^^^ TOP MOST HEADER STYLES END ^^^ */
 
   /* vvv MAIN HEADER STYLES BEGIN vvv */
+  .header-main__burger-button {
+    display: none;
+  }
+
   .header-main {
     padding: 50px 0px;
   }
   .header-main__nav {
     display: block;
     float: left;
+    padding: 0 10px;
   }
 
   .header-main__nav li {
@@ -85,6 +43,10 @@
     padding: 0 10px;
   }
 
+  .header-main__nav li a:hover {
+    color: #d9bf8f;
+  }
+
   .header-main__logo {
     position: absolute;
     left: calc(50% - 113px);
@@ -94,16 +56,16 @@
   .header-main__right {
     display: block;
     float: right;
-    padding-right: 10px;
+    padding: 0 20px;
   }
 
-  .header-main__user-setting {
+  .header-main__currency select{
     display: inline-block;
     background: black;
     vertical-align: bottom;
     margin-bottom: 5px;
   }
-  .header-main__user-setting a {
+  .header-main__currency select {
     display: inline-block;
     text-transform: uppercase;
     font-family: "latobold";
@@ -111,10 +73,6 @@
     font-size: 12px;
     padding: 10px;
   }
-  .header-main__user-setting img {
-    width: 12px;
-  }
-
   .header-main__social-media {
     display: inline-block;
     padding-right: 20px;
@@ -123,6 +81,10 @@
   .header-main__social-media li {
     display: inline-block;
     padding: 0 6px;
+  }
+
+  .header-main__social-media li a:hover {
+    opacity: 0.4;
   }
 
   .header-main__social-media img {

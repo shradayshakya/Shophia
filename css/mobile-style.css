@@ -69,23 +69,68 @@ a {
 }
 
 /* vvv UPPER HEADER STYLES BEGIN vvv*/
+
 .header-desktop-wrapper {
-  display: none;
-  min-width: 310px;
+  display: block;
+  width: 100%;
+  background-color: #f2f2f2;
 }
+.header-desktop {
+  max-width: 1334px;
+  padding: 15px 0px;
+  font-size: 11px;
+  margin: 0 auto;
+}
+
+.header-desktop:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.header-desktop a {
+  font-size: 11px;
+}
+
+.header-desktop a:hover {
+  color: #d9bf8f;
+}
+
+.header-desktop__contact-info {
+  float: left;
+  width: 200px;
+  height: 15px;
+  position: relative;
+  padding: 0 20px;
+}
+
+.header-desktop__contact-info img {
+  position: absolute;
+  top: 1px;
+  width: 10px;
+}
+
+.header-desktop__contact-info a {
+  position: absolute;
+  left: 60px;
+}
+
+.header-desktop__personalized-nav {
+  display: none;
+}
+
 /* ^^^ UPPER HEADER STYLES BEGIN ^^^*/
 
 /* vvv MAIN HEADER STYLES BEGIN vvv*/
 .header-main-wrapper {
   width: 100%;
-  min-width: 310px;
 }
 
 .header-main {
-  max-width: 1315px;
+  max-width: 1334px;
   margin: 0 auto; 
   position: relative;
-  padding: 30px 0px;
+  padding: 15px 0px;
   position: relative;
 }
 
@@ -101,7 +146,7 @@ a {
 
 .header-main__burger-button {
   float: left;
-  padding-left: 10px;
+  padding: 0 10px;
 }
 
 .header-main__burger-button button {
@@ -109,16 +154,21 @@ a {
   background-color: transparent;
 }
 
+.header-main__burger-button button:hover{
+  opacity: 0.2;
+  outline: none;
+}
+
 .header-main__burger-button img {
-  width: 50px;
+  width: 40px;
 }
 
 .header-main__logo {
   position: absolute;
   display: inline-block;
   font-family: "krinkes_decor_personal_useRg";
-  left: calc(50% - 79px);
-  font-size: 50px;
+  left: calc(50% - 62px);
+  font-size: 40px;
 }
 
 .header-main__right {
@@ -130,7 +180,6 @@ a {
 .carousel-wrapper {
   max-width: 1440px;
   margin: 0 auto;
-  min-width: 310px;
   position: relative;
 }
 
@@ -199,9 +248,8 @@ a {
   margin-top: 65px;
 }
 .offers {
-  max-width: 1315px;
+  max-width: 1334px;
   margin: 0 auto;
-  min-width: 310px;
 }
 
 .offers li {
@@ -257,10 +305,9 @@ ul.offers li .offer {
 }
 
 .handpicked {
-  max-width: 1315px;
+  max-width: 1334px;
   margin: 0 auto;
   margin-top: 55px;
-  min-width: 310px;
 }
 
 .handpicked li:not(:nth-child(2)) .handpicked__item {
@@ -291,10 +338,9 @@ ul.offers li .offer {
 }
 
 .summer {
-  max-width: 1315px;
+  max-width: 1334px;
   margin: 0 auto;
   margin-top: 55px;
-  min-width: 310px;
   border: 1px solid #eaeaea;
 }
 
@@ -362,10 +408,8 @@ ul.offers li .offer {
 
 .brand {
   margin: 0 auto;
-  max-width: 1315px;
-  min-width: 310px;
+  max-width: 1334px;
   margin-top: 55px;
-  min-width: 310px;
 }
 
 .brand li{
@@ -385,14 +429,13 @@ ul.offers li .offer {
 .review-body {
   width: 100%;
   background-color:#d9bf8f;
-  min-width: 310px;
   margin-top: 55px;
 }
 
 .review {
   margin: 0 auto;
   margin: 0 auto;
-  max-width: 1315px;
+  max-width: 1334px;
   padding-top: 50px;
 }
 
@@ -438,8 +481,7 @@ ul.offers li .offer {
 .footer-upper{
   padding: 65px 10px;
   margin: 0 auto;
-  max-width: 1315px;
-  min-width: 310px;
+  max-width: 1334px;
 }
 
 /* Responsive */
@@ -505,8 +547,7 @@ ul.offers li .offer {
 }
 
 .footer-lower {
-  max-width: 1315px;
-  min-width: 310px;
+  max-width: 1334px;
   margin-top: 25px;
   padding: 0 15px;
   margin: 0 auto;
@@ -541,16 +582,15 @@ ul.offers li .offer {
   content: "";
   display: block;
   top: -1px;
-  left: calc(50% - 25px);
-  border-left: 25px solid transparent;
-  border-right: 25px solid transparent;
-  border-top: 10px solid white;
+  left: calc(50% - 50px);
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 11px solid white;
 }
 
 .content-title {
   margin: 0 auto;
-  max-width: 1315px;
-  min-width: 310px;
+  max-width: 1334px;
   position: relative;
   text-align: center;
 }

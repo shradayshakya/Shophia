@@ -1,8 +1,8 @@
 @media only screen and (min-width: 600px) {
   /* vvv MAIN HEADER STYLES BEGIN vvv */
   .header-main__logo {
-    left: calc(50% - 94px);
-    font-size: 60px;
+    left: calc(50% - 78px);
+    font-size: 50px;
   }
 
   /* ^^^ MAIN HEADER STYLES END ^^^*/
@@ -100,6 +100,7 @@
   .handpicked li:nth-child(3),
   .handpicked li:nth-child(4) {
     float: left;
+    padding-bottom: 9px;
   }
   .handpicked li:nth-child(2),
   .handpicked li:nth-child(5) {
@@ -158,9 +159,9 @@
   }
 
   .sunken-top::after {
-    left: calc(50% - 55px);
-    border-left: 55px solid transparent;
-    border-right: 55px solid transparent;
+    left: calc(50% - 70px);
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
     border-top: 15px solid white;
   }
 
