@@ -254,7 +254,7 @@ ul.offers li:nth-child(3) .offer::before {
 /* vvv HANDPICKED STYLES BEGIN vvv */
 
 .handpicked li:nth-child(2) {
-  padding-bottom:14px;
+  padding-bottom:15px;
 }
 /* ^^^ HANDPICKED STYLES END ^^^ */
 }

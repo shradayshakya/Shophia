@@ -245,6 +245,42 @@
     width: 25%;
     float: left;
   }
+
+  .summer__item {
+    position: relative;
+  }
+
+  .summer__item--dark-layer {
+    position: absolute;
+    top: 3%;
+    left: 3.5%;
+    display: none;
+    width : 93.5%;
+    height : 93.5%;
+    background-color: rgba(0, 0, 0, 0.507);
+  }
+
+  .summer__item:hover 
+  .summer__item--dark-layer {
+    display: block;
+  }
+
+  .summer__item:hover
+  a{
+    background: #f0975c;
+  }
+  
+  .summer__item:hover
+  .summer__item--left-triangle
+  {
+    border-color: transparent transparent #f0975c transparent;
+  }
+  
+  .summer__item:hover 
+  .summer__item--right-triangle {
+    border-color: transparent transparent transparent #f0975c;
+  }
+  
   /* ^^^ SUMMER COLLECTION STYLES END ^^^ */
 
   

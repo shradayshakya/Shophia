@@ -354,23 +354,37 @@ ul.offers li .offer {
 .summer {
   max-width: 1334px;
   margin: 0 auto;
-  margin-top: 55px;
+  margin-top: 25px;
   border: 1px solid #eaeaea;
+  padding: 10px;
 }
 
 .summer li {
   width: 100%;
-  padding: 5px;
+  padding: 10px;
 }
 
 .summer__item {
   position: relative;
 }
 
+.summer__item--discount {
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: #feab12;
+  color: white;
+  padding: 15px 10px;
+  border-radius: 50%;
+}
+
 .summer__item a {
   position: absolute;
   left: 50%;
-  bottom: 0%;
+  bottom: 1%;
   transform: translate(-50%, -17.85%);
   display: inline-block;
   background: black;
@@ -380,12 +394,10 @@ ul.offers li .offer {
   padding-top: 15px;
   text-transform: uppercase;
   color: white;
-  font-size: 14px;
+  font-size: 10px;
 }
 
-.summer__item a:before {
-  content: "";
-  display: block;
+.summer__item--left-triangle{
   position: absolute;
   left: 0%;
   top: 0%;
@@ -394,10 +406,10 @@ ul.offers li .offer {
   height: 0;
   border-style: solid;
   border-width: 0 0 44px 44px;
-  border-color: transparent transparent #000000 transparent;
+  border-color: transparent transparent black transparent;
 }
 
-.summer__item a:after {
+.summer__item--right-triangle {
   content: "";
   display: block;
   position: absolute;
@@ -410,6 +422,23 @@ ul.offers li .offer {
   border-width: 44px 0 0 44px;
   border-color: transparent transparent transparent #000000;
 }
+
+
+.summer__item a:hover{
+  background: #f0975c;
+}
+
+.summer__item a:hover
+.summer__item--left-triangle
+{
+  border-color: transparent transparent #f0975c transparent;
+}
+
+.summer__item a:hover 
+.summer__item--right-triangle {
+  border-color: transparent transparent transparent #f0975c;
+}
+
 
 /* ^^^ SUMMER COLLECTION STYLES END ^^^ */
 
