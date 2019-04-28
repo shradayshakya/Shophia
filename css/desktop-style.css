@@ -285,12 +285,9 @@
 
   
   /* vvv FOOTER STYLES BEGIN vvv */
-  .footer-upper > li{
+  .footer-upper > ul{
     text-align: left; 
     float: left;
-  }
-
-  .footer-upper > li{
     width: 25%;
   }
   /* ^^^ FOOTER STYLES BEGIN ^^^ */

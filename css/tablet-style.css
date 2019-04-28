@@ -88,9 +88,6 @@
   /* ^^^ OFFERS STYLES END ^^^ */
 
   /* vvv HANDPICKED STYLES BEGIN vvv */
-  .handpicked-wrapper {
-    margin-top: 65px;
-  }
 
   .handpicked {
     margin-top: 45px;
@@ -120,6 +117,10 @@
 
   /* vvv SUMMER COLLECTION STYLES BEGIN vvv */
 
+  .summer {
+    margin-top: 45px;
+  }
+
   .summer li {
     width: 50%;
     float: left;
@@ -128,6 +129,11 @@
   /* ^^^ SUMMER COLLECTION STYLES END ^^^ */
 
   /* vvv BRAND STYLES BEGIN vvv */
+  
+  .brand {
+    margin-top: 45px;
+  }
+
   .brand li {
     width: 16.66667%;
     float: left;
@@ -136,6 +142,10 @@
   /* ^^^ BRAND STYLES END ^^^ */
 
   /* vvv CUSTOMER STYLES BEGIN vvv */
+  .review {
+    margin-top: 45px;
+  }
+
   ul.review li {
     width: 50%;
     float: left;
@@ -149,9 +159,9 @@
   /* ^^^ CUSTOMER STYLES END ^^^ */
 
   /* vvv FOOTER STYLES BEGIN vvv */
-  .footer-upper > li{
+
+  .footer-upper > ul{
     padding-left: 5px;
-    text-align: left; 
     float: left;
     width: 50%;
   }
@@ -257,4 +267,14 @@ ul.offers li:nth-child(3) .offer::before {
   padding-bottom:15px;
 }
 /* ^^^ HANDPICKED STYLES END ^^^ */
+
+ /* vvv CUSTOMER STYLES BEGIN vvv */
+
+.review__text {
+  font-size: 12px;
+}
+
+/* ^^^ CUSTOMER STYLES END ^^^ */
+
+
 }
