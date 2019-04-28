@@ -152,11 +152,11 @@ a {
 .header-main__burger-button button {
   border: none;
   background-color: transparent;
+  outline: none;
 }
 
-.header-main__burger-button button:hover{
+.header-main__burger-button button:active{
   opacity: 0.2;
-  outline: none;
 }
 
 .header-main__burger-button img {
@@ -224,7 +224,7 @@ a {
 .carousel__card-body ul li:nth-child(4) {
   font-size: 1.96em;
   color: black;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .carousel__card-button {
@@ -234,27 +234,32 @@ a {
 .carousel__card-button a {
   display: inline-block;
   height: 34px;
-  width: 62px;
-  padding: 10px;
+  width: 70px;
+  padding: 12px 10px;
   background-color: #f09d66;
   color: white;
   font-size: 1.5em;
+}
+
+.carousel__card-button a:hover {
+  background-color: #ffa66b;
 }
 /* ^^^ CAROUSAL STYLES END ^^^ */
 
 /* vvv OFFERS STYLES BEGIN vvv*/
 .offers-wrapper {
   width: 100%;
-  margin-top: 65px;
+  margin-top: 20px;
 }
 .offers {
   max-width: 1334px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 .offers li {
-  padding: 5px 10px;
-  font-size: 16px;
+  padding: 5px 20px;
+  font-size: 12px;
   width: 100%;
 }
 
@@ -264,12 +269,12 @@ a {
 }
 
 .offer__icon {
-  width: 50px;
+  width: 70px;
 }
 
 .offer__icon,
 .offer__text {
-  padding: 5px;
+  padding: 5px 10px;
 }
 
 .offer__text h3 {
@@ -307,7 +312,12 @@ ul.offers li .offer {
 .handpicked {
   max-width: 1334px;
   margin: 0 auto;
-  margin-top: 55px;
+  margin-top: 25px;
+  padding: 0 20px;
+}
+
+.handpicked li{
+  padding: 10px 10px;
 }
 
 .handpicked li:not(:nth-child(2)) .handpicked__item {
@@ -323,11 +333,15 @@ ul.offers li .offer {
   color: white;
   text-transform: uppercase;
   width: 100px;
-  height: 45px;
+  height: 30px;
   font-size: 14px;
-  padding: 15px 10px;
+  padding: 10px;
   bottom: 20%;
   left: calc(50% - 50px);
+}
+
+.handpicked__item a:hover {
+  background-color: #ffa66b;
 }
 /* ^^^ HANDPICKED STYLES END ^^^*/
 
@@ -599,10 +613,11 @@ ul.offers li .offer {
   content: "";
   display: block;
   border-top: solid 1px #eaeaea;
-  width: 100%;
+  left: 4%;
+  width: 94%;
   height: 2px;
   position: absolute;
-  top: 50%;
+  top: calc(50% - 3px);
   z-index: 0;
 }
 
@@ -635,3 +650,5 @@ ul.offers li .offer {
   z-index: 1;
 }
 /* ^^^ RESPONSIVE HELPER STYLES END ^^^*/
+
+

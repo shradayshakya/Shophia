@@ -1,4 +1,4 @@
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 550px) {
   /* vvv MAIN HEADER STYLES BEGIN vvv */
   .header-main__logo {
     left: calc(50% - 78px);
@@ -17,7 +17,7 @@
   }
 
   .carousel__card {
-    font-size: 12px;
+    font-size: 11px;
     width: 155px;
   }
 
@@ -30,7 +30,7 @@
   }
 
   .carousel__card-body li {
-    padding-top: 15px;
+    padding-top: 11px;
   }
 
   .carousel__card-button {
@@ -39,21 +39,35 @@
 
   .carousel__card-button a {
     height: 50px;
-    width: 95px;
-    padding: 9px;
+    width: 110px;
+    padding: 16px 8px;
   }
   /* ^^^ CAROUSAL STYLES END ^^^*/
 
   /* vvv OFFERS STYLES BEGIN vvv */
 
+
+  .offers-wrapper {
+    margin-top: 65px;
+  }
+
   .offers li {
     float: left;
-    padding: 0 10px;
+    padding: 0 4px;
     font-size: 9px;
   }
 
   .offer {
-    padding: 20px 0;
+    height: 80px;
+  }
+
+  .offer__icon {
+    width: 44px;
+  }
+
+  .offer__icon,
+  .offer__text {
+  padding: 5px;
   }
 
   ul.offers li:nth-child(1) {
@@ -69,42 +83,37 @@
   }
 
   ul.offers li .offer {
-    padding-left: calc(50% - 90px);
+    padding-left: calc(50% - 100px);
   }
-
   /* ^^^ OFFERS STYLES END ^^^ */
 
   /* vvv HANDPICKED STYLES BEGIN vvv */
-  .handpicked__item a {
-    width: 150px;
-    height: 70px;
-    font-size: 20px;
-    padding: 20px;
-    bottom: 20%;
-    left: calc(50% - 75px);
+  .handpicked-wrapper {
+    margin-top: 65px;
+  }
+
+  .handpicked {
+    margin-top: 45px;
   }
 
   .handpicked li {
     width: 50%;
+    padding: 10px 10px;
   }
 
-  .handpicked li {
-    padding: 0 10px;
-  }
-
-  .handpicked li:nth-child(2) {
-    padding-bottom: 2px;
-  }
 
   .handpicked li:nth-child(1),
   .handpicked li:nth-child(3),
   .handpicked li:nth-child(4) {
     float: left;
-    padding-bottom: 9px;
   }
   .handpicked li:nth-child(2),
   .handpicked li:nth-child(5) {
     float: right;
+  }
+
+  .handpicked li:nth-child(2) {
+    padding-bottom:20px;
   }
 
   /* ^^^ HANDPICKED STYLES END ^^^ */
@@ -170,4 +179,82 @@
   }
 
   /* ^^^ RESPONSIVE HELPER STYLES END ^^^ */
+}
+
+
+
+@media only screen and (min-width: 736px) {
+ /* vvv OFFERS STYLES BEGIN vvv */
+ .offer__icon {
+  width: 40px;
+}
+ ul.offers li:nth-child(1) .offer {
+   padding-left: 10px;
+  position: relative;
+}
+
+ul.offers li:nth-child(1) .offer::after {
+  top: 0px;
+  right: 0%;
+  position: absolute;
+  content: "";
+  display: block;
+  border-style: solid;
+  border-width: 40px 0 40px 40px;
+  border-color: #ffffff #ffffff #ffffff #d9bf8f;
+}
+
+ul.offers li:nth-child(2) .offer {
+  padding-left: calc(50% - 80px);
+  position: relative;
+}
+
+ul.offers li:nth-child(2) .offer::before {
+  top: 0px;
+  left: 0%;
+  position: absolute;
+  content: "";
+  display: block;
+  border-style: solid;
+  border-width: 40px 0 40px 40px;
+  border-color: transparent transparent transparent #ffffff;
+}
+
+ul.offers li:nth-child(2) .offer::after {
+  top: 0px;
+  right: 0%;
+  position: absolute;
+  content: "";
+  display: block;
+  border-style: solid;
+  border-width: 40px 40px 40px 0;
+  border-color: transparent #ffffff transparent transparent;
+}
+
+ul.offers li:nth-child(3) .offer {
+  padding-left: calc(50% - 60px);
+  position: relative;
+}
+
+ul.offers li:nth-child(3) .offer::before {
+  top: 0px;
+  left: 0%;
+  position: absolute;
+  content: "";
+  display: block;
+  border-style: solid;
+  border-width: 40px 40px 40px 0px;
+  border-color: #ffffff #d9bf8f #ffffff #ffffff;
+}
+
+
+/* ^^^ OFFERS STYLES END ^^^ */
+
+
+/* vvv HANDPICKED STYLES BEGIN vvv */
+
+.handpicked li:nth-child(2) {
+  padding-bottom:14px;
+}
+/* ^^^ HANDPICKED STYLES END ^^^ */
 }
