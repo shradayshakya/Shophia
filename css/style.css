@@ -60,7 +60,7 @@ img {
 }
 
 body {
-  font-family: "latoregular";
+  font-family: latoregular, sans-serif;
 }
 
 a {
@@ -708,6 +708,7 @@ opacity: 0.5;
   padding: 10px;
   color: grey;
   font-family: "krinkes_decor_personal_useRg";
+  font-size: 20px;
 }
 .burger-menu select {
   display: inline-block;
